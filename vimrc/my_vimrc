@@ -7,7 +7,7 @@ let maplocalleader = "_"
 " Sets the working directory to the current file's directory:
 autocmd BufEnter * lcd %:p:h
 
-" Don't restore help windows 
+" Don't restore help windows
 set sessionoptions-=help
 
 
@@ -49,7 +49,7 @@ let clj_want_gorilla = 1
 "let vimclojure#DynamicHighlighting = 1
 
 " Taglist plugin & Clojure
-" http://kuriqoo.blogspot.com/2011/02/using-clojure-in-vim.html 
+" http://kuriqoo.blogspot.com/2011/02/using-clojure-in-vim.html
 
 " Configure Tlist to use with Clojure:
 let tlist_clojure_settings = 'lisp;f:function'
@@ -70,15 +70,20 @@ let Tlist_File_Fold_Auto_Close=1
 let Tlist_Sort_Type = 'name'
 
 
+" Programming > Ruby > vim-textobj-rubyblock
+" ------------------------------------------------------
+runtime macros/matchit.vim
+
+
 " Programming > Ruby on Rails > vim-rails
 " ------------------------------------------------------
-let g:rails_default_file='config/routes.rb' 
+let g:rails_default_file='config/routes.rb'
 
-" Make the list of Rails projects in menu persistent. 
+" Make the list of Rails projects in menu persistent.
 set viminfo^=!
 
 " Ragtag
-" The `-` tells ERb to trim the trailing newline if the appropriate option is enabled, 
+" The `-` tells ERb to trim the trailing newline if the appropriate option is enabled,
 " and Rails enables that option. It is possible to override this:
 autocmd User Rails/**/*.erb let b:surround_{char2nr('-')} = "<% \r %>"
 
@@ -86,7 +91,7 @@ autocmd User Rails/**/*.erb let b:surround_{char2nr('-')} = "<% \r %>"
 autocmd User Rails :silent !ctags --extra=+f -R *
 
 " Keep for later:
-" autocmd User Rails let  g:fuzzy_roots = [RailsRoot()] 
+" autocmd User Rails let  g:fuzzy_roots = [RailsRoot()]
 
 " PLUGIN SETTINGS (END)
 
@@ -108,9 +113,9 @@ set incsearch
 " Highlight search matches
 set hlsearch
 
-if &bg == 'dark' 
-    hi Search gui=NONE guifg=yellow 
-else 
+if &bg == 'dark'
+    hi Search gui=NONE guifg=yellow
+else
     hi Search gui=NONE guibg=yellow
 endif
 
@@ -149,7 +154,7 @@ set expandtab
 
 "http://www.8t8.us/vim/vim.html
 " Allow windows to get fully squashed
-set winminheight=0      
+set winminheight=0
 
 " Don't activate autoclose
 let g:autoclose_on = 0
@@ -167,7 +172,7 @@ let g:autoclose_on = 0
 
 " MACRO SETTING (START)
 
-" SQL example 
+" SQL example
 let @a = "IUPDATE USER wywA IDENTIFIED BY 'pa'j"
 
 " MACRO SETTINGS (END)
@@ -194,7 +199,7 @@ nmap <silent> ;ev :tabnew ~/.vimrc<CR>
 nmap <silent> ;sv :so ~/.vimrc<CR>
 
 "http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily
-" Allows all window commands in insert mode so that i'm not 
+" Allows all window commands in insert mode so that i'm not
 " accidentally deleting words anymore :-)
 " mapping
 :imap <C-w> <C-o><C-w>
@@ -231,7 +236,7 @@ map <leader>r :NERDTreeFind<cr>
 " Programming > TList
 " ------------------------------------------------------
 " mapping
-nmap <silent> ;tt :TlistToggle<CR> 
+nmap <silent> ;tt :TlistToggle<CR>
 
 "CTags Settings
 " ------------------------------------------------------

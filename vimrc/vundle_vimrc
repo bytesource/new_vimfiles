@@ -26,8 +26,6 @@ Bundle 'vim-scripts/repeat.vim'
 Bundle 'vim-scripts/IndexedSearch'
 " :Grep, :Rgrep
 Bundle 'vim-scripts/grep.vim'
-" Needed for ruby-textobject
-Bundle 'vim-scripts/matchit.zip'
 " Session Management
 " ------------------------------------------------------
 Bundle 'vim-scripts/session.vim--Odding'
