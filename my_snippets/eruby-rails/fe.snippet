@@ -1,0 +1,6 @@
+<% flash.each do |name, msg|  %>
+  <%= content_tag :${1}, msg, :id => "flash #{name}" %>
+<% end %>
+${2}
+
+
