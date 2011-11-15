@@ -56,6 +56,8 @@ Bundle  'godlygeek/tabular'
 " :Rvm 1.9.2, :Rvm use default
 Bundle 'tpope/vim-rvm'
 Bundle 'vim-ruby/vim-ruby'
+" vim-textobj-user is a dependency for vim-textobj-rubyblock
+Bundle 'kana/vim-textobj-user'
 " ir, ar
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-endwise'
