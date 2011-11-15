@@ -1,9 +1,9 @@
+bundle/
 .DS_Store
 tags
 *~
 *.sw*
 .VimballRecord
 .netrwhist
-bundle/vim-peepopen
-sessions/*
+sessions/
 .directory
