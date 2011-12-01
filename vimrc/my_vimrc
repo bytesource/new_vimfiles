@@ -17,6 +17,10 @@ colorscheme railscasts_grey_comment
 " === Overwriting Font Settings
 set guifont=Droid\ Sans\ Mono\ Slashed\ 11
 
+" Save file, then execute 'ruby' on current buffer
+command! WR w !ruby %
+
+
 " PLUGIN SETTINGS (START)
 
 " Vim > Navigation > NERDTree
