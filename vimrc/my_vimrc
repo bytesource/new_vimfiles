@@ -199,8 +199,8 @@ set shellcmdflag=-ic
 unmap <C-I>
 
 " Edit the vimrc file
-nmap <silent> ;ev :tabnew ~/.vimrc<CR>
-nmap <silent> ;sv :so ~/.vimrc<CR>
+nmap <silent> ;ev :tabnew ~/.vim/vimrc/my_vimrc<CR>
+nmap <silent> ;sv :so ~/.vim/vimrc/my_vimrc<CR>
 
 "http://vim.wikia.com/wiki/Switch_between_Vim_window_splits_easily
 " Allows all window commands in insert mode so that i'm not
