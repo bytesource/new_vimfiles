@@ -245,8 +245,8 @@ nmap <silent> ;tt :TlistToggle<CR>
 "CTags Settings
 " ------------------------------------------------------
 " mapping
-" Build tags for current Rails project
-map ;pt :Rcd <bar> :silent !ctags --extra=+f -R *
+" Build tags for current project
+map ;pt :silent !ctags --extra=+f -R *
 " Build tags for the Ruby on Rails gem
 " mapping (rt = rails tags)
 map ;rt :silent !ctags -R `bundle show rails`/../*
