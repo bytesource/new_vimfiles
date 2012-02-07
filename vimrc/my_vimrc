@@ -21,6 +21,7 @@ set guifont=Droid\ Sans\ Mono\ Slashed\ 11
 command! WR w !ruby `%`
 
 
+
 " PLUGIN SETTINGS (START)
 
 " Vim > Navigation > NERDTree
@@ -197,6 +198,8 @@ set shellcmdflag=-ic
 
 " Unmap <C-I> to restore default behaviour
 unmap <C-I>
+" <C-F> previously mapped to :call FindInNERDTree()
+unmap <C-F>
 
 " Edit the vimrc file
 nmap <silent> ;ev :tabnew ~/.vim/vimrc/my_vimrc<CR>
