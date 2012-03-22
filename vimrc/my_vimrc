@@ -18,7 +18,7 @@ colorscheme railscasts_grey_comment
 set guifont=Droid\ Sans\ Mono\ Slashed\ 11
 
 " Save file, then execute 'ruby' on current buffer
-command! WR w !ruby `%`
+command! WR w !ruby -w `%`
 
 
 
