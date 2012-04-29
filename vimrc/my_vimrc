@@ -59,6 +59,28 @@ let clj_want_gorilla = 1
 " Configure Tlist to use with Clojure:
 let tlist_clojure_settings = 'lisp;f:function'
 
+" Programming > Haskell > haskellmode
+" ------------------------------------------------------
+" http://robertmassaioli.wordpress.com/2010/06/16/haskellmode-guide-awesome-haskell-with-vim/
+
+" You may already have the following two on, please check
+syntax on
+filetype plugin on
+
+" This assumes that ghc is in your path, if it is not, or you
+" wish to use a specific version of ghc, then please change
+" the ghc below to a full path to the correct one
+au BufEnter *.hs compiler ghc
+
+" For this section both of these should be set to your
+" browser and ghc of choice, I used the following
+" two vim lines to get those paths:
+" :r!which google-chrome
+" :r!whigh ghc
+let g:haddock_browser = "/usr/bin/google-chrome"
+let g:ghc = "/usr/bin/ghc"
+let g:haddock_docdir = "/usr/share/doc/ghc6-doc/html/"
+
 " ========= Color Scheme & Font
 
 au FileType clojure colorscheme gentooish
