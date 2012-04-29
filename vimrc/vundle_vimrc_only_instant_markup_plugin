@@ -1,0 +1,121 @@
+" VUNDLE SETTINGS (START)
+
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/vundle.git/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+
+" MY BUNDLES
+
+" Vim
+" ======================================================
+" Bundle 'ciaranm/securemodelines'
+" " Abolish lets you quickly find, substitute, and abbreviate
+" " several variations of a word at once.
+" Bundle 'tpope/vim-abolish'
+" " In vim use :coloscheme
+" Bundle 'vim-scripts/CSApprox'
+" " Use '.' command after a plugin map
+" Bundle 'vim-scripts/repeat.vim'
+" " Shows 'Nth match out of M' at every search
+" Bundle 'vim-scripts/IndexedSearch'
+" " :Grep, :Rgrep
+" Bundle 'vim-scripts/grep.vim'
+" " Session Management
+" " ------------------------------------------------------
+" Bundle 'vim-scripts/session.vim--Odding'
+" " Navigation
+" " ------------------------------------------------------
+" Bundle 'scrooloose/nerdtree'
+" Bundle 'wincent/Command-T'
+" " \be, :BufExplorer
+" Bundle 'vim-scripts/bufexplorer.zip'
+"
+" " Programming
+" " ======================================================
+" Bundle 'ervandew/supertab'
+" " Use with screen
+" Bundle 'jpalardy/vim-slime'
+" " Syntax checker, :SyntasticEnable
+" Bundle 'scrooloose/syntastic'
+" " Bundle 'scrooloose/nerdcommenter'
+" Bundle 'tpope/vim-surround'
+" " :TlistToggle <ll>tt
+" " Bundle 'vim-scripts/taglist.vim'
+" " :TagbarToggle
+" Bundle 'majutsushi/tagbar'
+" " :Tab[ular] /<regex>
+" Bundle  'godlygeek/tabular'
+" " Ruby
+" " ------------------------------------------------------
+" " :Rvm 1.9.2, :Rvm use default
+" " Bundle 'tpope/vim-rvm'
+" Bundle 'vim-ruby/vim-ruby'
+" " vim-textobj-user is a dependency for vim-textobj-rubyblock
+" " Bundle 'kana/vim-textobj-user'
+" " ir, ar
+" " Bundle 'nelstrom/vim-textobj-rubyblock'
+" " Bundle 'tpope/vim-endwise'
+" " Ruby on Rails
+" " ------------------------------------------------------
+" Bundle 'tpope/vim-rails'
+" " Bundle 'tpope/vim-haml'
+" " Bundle 'tpope/vim-cucumber'
+" Bundle 'hallison/vim-ruby-sinatra'
+" " Bundle 'cakebaker/scss-syntax.vim'
+" " HTML/CSS
+" " ------------------------------------------------------
+" " Abbreviation engine for HTML & CSS
+" Bundle 'mattn/zencoding-vim'
+" " Clojure
+" " ------------------------------------------------------
+" Bundle 'vim-scripts/VimClojure'
+" " Javascript
+" " ------------------------------------------------------
+" " Bundle 'kchmck/vim-coffee-script'
+" " Markup
+" " ------------------------------------------------------
+" Bundle 'tpope/vim-markdown'
+" Bundle 'timcharper/textile.vim'
+" Bundle 'greyblake/vim-preview'
+" " <Leader>P - will open current file converted to HTML in your browser.
+" " vim-preview throws error
+Bundle 'suan/vim-instant-markdown'
+" " vim-instant-markdown' make editing markdown unresponsive.
+" " Bundle 'irrationalfab/vim-instant-markdown'
+" " 'irrationalfab/vim-instant-markdown': browser window updates, but Vim stays
+" " unresponsive.
+"
+" " Snippets
+" " ======================================================
+" Bundle 'msanders/snipmate.vim'
+" " Use 'rake :deploy_local'
+" Bundle 'scrooloose/snipmate-snippets'
+"
+" " Git
+" " ======================================================
+" Bundle 'tpope/vim-fugitive'
+
+
+filetype plugin indent on     " required!
+
+" VUNDLE SETTINGS (END)
+
+
+" ======================================================
+
+" LOAD REMAINING SETTINGS (START)
+" Load Akita on Rails' vimrc
+source ~/.vim/vimrc/akita_vimrc
+
+" Load my personal settings
+source ~/.vim/vimrc/my_vimrc
+
+" LOAD REMAINING SETTING (END)
+
+
