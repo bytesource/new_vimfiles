@@ -43,10 +43,10 @@ Bundle 'ervandew/supertab'
 Bundle 'jpalardy/vim-slime'
 " Syntax checker, :SyntasticEnable
 Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdcommenter'
+" Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-surround'
 " :TlistToggle <ll>tt
-Bundle 'vim-scripts/taglist.vim'
+" Bundle 'vim-scripts/taglist.vim'
 " :TagbarToggle
 Bundle 'majutsushi/tagbar'
 " :Tab[ular] /<regex>
@@ -54,20 +54,20 @@ Bundle  'godlygeek/tabular'
 " Ruby
 " ------------------------------------------------------
 " :Rvm 1.9.2, :Rvm use default
-Bundle 'tpope/vim-rvm'
+" Bundle 'tpope/vim-rvm'
 Bundle 'vim-ruby/vim-ruby'
 " vim-textobj-user is a dependency for vim-textobj-rubyblock
-Bundle 'kana/vim-textobj-user'
+" Bundle 'kana/vim-textobj-user'
 " ir, ar
-Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'tpope/vim-endwise'
+" Bundle 'nelstrom/vim-textobj-rubyblock'
+" Bundle 'tpope/vim-endwise'
 " Ruby on Rails
 " ------------------------------------------------------
 Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-cucumber'
+" Bundle 'tpope/vim-haml'
+" Bundle 'tpope/vim-cucumber'
 Bundle 'hallison/vim-ruby-sinatra'
-Bundle 'cakebaker/scss-syntax.vim'
+" Bundle 'cakebaker/scss-syntax.vim'
 " HTML/CSS
 " ------------------------------------------------------
 " Abbreviation engine for HTML & CSS
@@ -77,12 +77,22 @@ Bundle 'mattn/zencoding-vim'
 Bundle 'vim-scripts/VimClojure'
 " Javascript
 " ------------------------------------------------------
-Bundle 'kchmck/vim-coffee-script'
+" Haskell
+Bundle 'lukerandall/haskellmode-vim'
+" ------------------------------------------------------
+" Bundle 'kchmck/vim-coffee-script'
 " Markup
 " ------------------------------------------------------
 Bundle 'tpope/vim-markdown'
 Bundle 'timcharper/textile.vim'
 Bundle 'greyblake/vim-preview'
+" <Leader>P - will open current file converted to HTML in your browser.
+" vim-preview throws error
+Bundle 'suan/vim-instant-markdown'
+" vim-instant-markdown' make editing markdown unresponsive.
+" Bundle 'irrationalfab/vim-instant-markdown'
+" 'irrationalfab/vim-instant-markdown': browser window updates, but Vim stays
+" unresponsive.
 
 " Snippets
 " ======================================================
