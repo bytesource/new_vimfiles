@@ -26,9 +26,11 @@ Bundle 'vim-scripts/repeat.vim'
 Bundle 'vim-scripts/IndexedSearch'
 " :Grep, :Rgrep
 Bundle 'vim-scripts/grep.vim'
+
 " Session Management
 " ------------------------------------------------------
 Bundle 'vim-scripts/session.vim--Odding'
+
 " Navigation
 " ------------------------------------------------------
 Bundle 'scrooloose/nerdtree'
@@ -51,6 +53,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'majutsushi/tagbar'
 " :Tab[ular] /<regex>
 Bundle  'godlygeek/tabular'
+
 " Ruby
 " ------------------------------------------------------
 " :Rvm 1.9.2, :Rvm use default
@@ -61,6 +64,7 @@ Bundle 'vim-ruby/vim-ruby'
 " ir, ar
 " Bundle 'nelstrom/vim-textobj-rubyblock'
 " Bundle 'tpope/vim-endwise'
+
 " Ruby on Rails
 " ------------------------------------------------------
 Bundle 'tpope/vim-rails'
@@ -68,19 +72,25 @@ Bundle 'tpope/vim-rails'
 " Bundle 'tpope/vim-cucumber'
 Bundle 'hallison/vim-ruby-sinatra'
 " Bundle 'cakebaker/scss-syntax.vim'
+
 " HTML/CSS
 " ------------------------------------------------------
 " Abbreviation engine for HTML & CSS
 Bundle 'mattn/zencoding-vim'
+
 " Clojure
 " ------------------------------------------------------
 Bundle 'vim-scripts/VimClojure'
+
+" Haskell
+" ------------------------------------------------------
+Bundle 'lukerandall/haskellmode-vim'
+Bundle 'bitc/lushtags'
+
 " Javascript
 " ------------------------------------------------------
-" Haskell
-Bundle 'lukerandall/haskellmode-vim'
-" ------------------------------------------------------
 " Bundle 'kchmck/vim-coffee-script'
+
 " Markup
 " ------------------------------------------------------
 Bundle 'tpope/vim-markdown'
