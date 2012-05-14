@@ -68,7 +68,7 @@ Bundle 'vim-ruby/vim-ruby'
 " Ruby on Rails
 " ------------------------------------------------------
 Bundle 'tpope/vim-rails'
-" Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-haml'
 " Bundle 'tpope/vim-cucumber'
 Bundle 'hallison/vim-ruby-sinatra'
 " Bundle 'cakebaker/scss-syntax.vim'
